@@ -5,6 +5,8 @@ public class Main {
         System.out.println("Hello world 3!");
 
         int[] arr = new int[3];
+
+        bubbleSort(arr);
     }
     public static void bubbleSort(int[] arr) {
         int n = arr.length;
