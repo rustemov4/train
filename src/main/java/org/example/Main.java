@@ -8,6 +8,7 @@ public class Main {
 
         bubbleSort(arr);
     }
+
     public static void bubbleSort(int[] arr) {
         int n = arr.length;
         boolean swapped;
@@ -61,5 +62,9 @@ public class Main {
         arr[high] = temp;
 
         return i + 1;
+    }
+
+    public static void someMethod() {
+
     }
 }
